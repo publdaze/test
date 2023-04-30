@@ -1,5 +1,5 @@
 ---
-labels: Feature
+labels: "Feature"
 ---
 
 ## PR 내용
