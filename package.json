@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "223-6fb34fa41742c62fc755.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm --prefix ./gatsby-blog-templete install",
+    "start": "npm --prefix ./gatsby-blog-templete run start",
+    "deploy": "$(npm config set repository=$npm_package_config_repository --location=project) && npm --prefix ./gatsby-blog-templete run deploy"
+  },
+  "config": {
+    "repository": "https://github.com/publdaze/test.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/publdaze/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/publdaze/test/issues"
+  },
+  "homepage": "https://github.com/publdaze/test#readme"
+}
