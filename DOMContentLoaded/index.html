@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DOMContentLoaded 테스트</title>
+    <script defer src="defer.js"></script>
+  </head>
+  <body>
+    <h1>DOMContentLoaded 테스트 페이지</h1>
+
+    <script>
+      console.log("[HTML 파싱 중단] inline script 실행");
+
+      document.addEventListener("DOMContentLoaded", () => {
+        console.log("[DOMContentLoaded] 이벤트 발생!");
+      });
+    </script>
+  </body>
+</html>
